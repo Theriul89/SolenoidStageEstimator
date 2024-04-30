@@ -27,7 +27,7 @@ public class Bobina {
         this.coil_length = coil_length;
         this.boltage = voltage;
 
-        this.number_of_loops_in_one_length = (int)Math.floor(coil_length / (coil_section_radius * 2));
+        this.number_of_loops_in_one_length = (int)Math.floor(coil_length / (conductor_section_radius * 2));
     }
 
     public Bobina(Bobina other){
